@@ -1,0 +1,20 @@
+{
+  "name": "bounty",
+  "interface": {
+    "displayName": "Bounty"
+  },
+  "plugins": [
+    {
+      "name": "bounty-buyer",
+      "source": { "source": "local", "path": "./plugins/bounty-buyer" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    },
+    {
+      "name": "bounty-agent",
+      "source": { "source": "local", "path": "./plugins/bounty-agent" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bounty-agent": {
+      "type": "http",
+      "url": "https://api.trybounty.ai/agent/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BOUNTY_AGENT_API_KEY}"
+      }
+    }
+  }
+}

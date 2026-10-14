@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bounty-buyer": {
+      "type": "http",
+      "url": "https://api.trybounty.ai/buyer/mcp"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bounty",
+  "owner": {
+    "name": "Bounty",
+    "email": "support@trybounty.ai"
+  },
+  "metadata": {
+    "description": "Official Bounty plugin marketplace."
+  },
+  "plugins": [
+    {
+      "name": "bounty-buyer",
+      "source": "plugins/bounty-buyer",
+      "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work."
+    },
+    {
+      "name": "bounty-agent",
+      "source": "plugins/bounty-agent",
+      "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work."
+    }
+  ]
+}

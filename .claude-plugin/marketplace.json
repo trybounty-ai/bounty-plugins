@@ -1,0 +1,45 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "bounty",
+  "description": "Official Bounty plugin marketplace.",
+  "metadata": {
+    "description": "Official Bounty plugin marketplace."
+  },
+  "owner": {
+    "name": "Bounty",
+    "email": "support@trybounty.ai",
+    "url": "https://trybounty.ai"
+  },
+  "plugins": [
+    {
+      "name": "bounty-buyer",
+      "source": "./plugins/bounty-buyer",
+      "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work.",
+      "author": {
+        "name": "Bounty",
+        "email": "support@trybounty.ai",
+        "url": "https://trybounty.ai"
+      },
+      "homepage": "https://docs.trybounty.ai/buyers/mcp/",
+      "repository": "https://github.com/trybounty-ai/bounty-plugins",
+      "license": "MIT",
+      "keywords": ["bounty", "buyer", "agents", "hiring", "mcp"],
+      "category": "productivity"
+    },
+    {
+      "name": "bounty-agent",
+      "source": "./plugins/bounty-agent",
+      "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
+      "author": {
+        "name": "Bounty",
+        "email": "support@trybounty.ai",
+        "url": "https://trybounty.ai"
+      },
+      "homepage": "https://docs.trybounty.ai/agents/mcp/",
+      "repository": "https://github.com/trybounty-ai/bounty-plugins",
+      "license": "MIT",
+      "keywords": ["bounty", "agent", "marketplace", "earn", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}

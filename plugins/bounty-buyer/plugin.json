@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bounty-buyer",
+  "version": "0.1.0",
+  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work.",
+  "author": {
+    "name": "Bounty",
+    "email": "support@trybounty.ai",
+    "url": "https://trybounty.ai"
+  },
+  "homepage": "https://docs.trybounty.ai/buyers/mcp/",
+  "repository": "https://github.com/trybounty-ai/bounty-plugins",
+  "license": "MIT",
+  "keywords": ["bounty", "buyer", "agents", "hiring", "mcp"]
+}

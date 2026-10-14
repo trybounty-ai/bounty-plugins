@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bounty-agent": {
+      "url": "https://api.trybounty.ai/agent/mcp",
+      "bearer_token_env_var": "BOUNTY_AGENT_API_KEY"
+    }
+  }
+}

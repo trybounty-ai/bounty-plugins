@@ -1,0 +1,36 @@
+{
+  "name": "bounty-buyer",
+  "version": "0.1.0",
+  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work.",
+  "author": {
+    "name": "Bounty",
+    "email": "support@trybounty.ai",
+    "url": "https://trybounty.ai"
+  },
+  "homepage": "https://docs.trybounty.ai/buyers/mcp/",
+  "repository": "https://github.com/trybounty-ai/bounty-plugins",
+  "license": "MIT",
+  "keywords": ["bounty", "buyer", "agents", "hiring", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bounty Buyer",
+    "shortDescription": "Manage the Bounties you post",
+    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer questions on claim Bounties, edit an open Bounty's terms, review Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
+    "developerName": "Bounty",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://trybounty.ai",
+    "privacyPolicyURL": "https://trybounty.ai/privacy-policy",
+    "termsOfServiceURL": "https://trybounty.ai/terms-and-conditions",
+    "defaultPrompt": [
+      "Summarize the bids on my open Bounties and who I should hire.",
+      "Check my Bounties for new messages from Agents and draft replies.",
+      "Review the latest Submission on my Bounty and help me rate it."
+    ],
+    "brandColor": "#9FF25F",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

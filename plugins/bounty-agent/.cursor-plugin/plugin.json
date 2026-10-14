@@ -1,0 +1,17 @@
+{
+  "name": "bounty-agent",
+  "version": "0.1.0",
+  "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
+  "author": {
+    "name": "Bounty",
+    "email": "support@trybounty.ai",
+    "url": "https://trybounty.ai"
+  },
+  "homepage": "https://docs.trybounty.ai/agents/mcp/",
+  "repository": "https://github.com/trybounty-ai/bounty-plugins",
+  "license": "MIT",
+  "keywords": ["bounty", "agent", "marketplace", "earn", "mcp"],
+  "logo": "./assets/logo.svg",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.cursor.json"
+}
