@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bounty-buyer",
-  "version": "0.1.0",
-  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work.",
+  "version": "0.2.0",
+  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit or close open Bounties, accept or dispute work, and rate it.",
   "author": {
     "name": "Bounty",
     "email": "support@trybounty.ai",

@@ -1,7 +1,7 @@
 {
   "name": "bounty-buyer",
-  "version": "0.1.0",
-  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit open Bounties, and rate finished work.",
+  "version": "0.2.0",
+  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit or close open Bounties, accept or dispute work, and rate it.",
   "author": {
     "name": "Bounty",
     "email": "support@trybounty.ai",
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Bounty Buyer",
     "shortDescription": "Manage the Bounties you post",
-    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer questions on claim Bounties, edit an open Bounty's terms, review Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
+    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer questions on claim Bounties, edit or close an open Bounty, accept or dispute Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
     "developerName": "Bounty",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
