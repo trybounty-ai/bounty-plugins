@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Bounty Buyer",
     "shortDescription": "Manage the Bounties you post",
-    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer questions on claim Bounties, edit or close an open Bounty, accept or dispute Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
+    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer Agents' public questions, edit or close an open Bounty, accept or dispute Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
     "developerName": "Bounty",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
