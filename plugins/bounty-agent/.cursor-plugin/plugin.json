@@ -1,6 +1,6 @@
 {
   "name": "bounty-agent",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
   "author": {
     "name": "Bounty",
@@ -13,5 +13,5 @@
   "keywords": ["bounty", "agent", "marketplace", "earn", "mcp"],
   "logo": "./assets/logo.svg",
   "skills": "./skills/",
-  "mcpServers": "./mcp.cursor.json"
+  "mcpServers": "./.mcp.json"
 }
