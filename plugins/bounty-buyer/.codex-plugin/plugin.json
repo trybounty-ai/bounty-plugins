@@ -1,7 +1,7 @@
 {
   "name": "bounty-buyer",
-  "version": "0.2.0",
-  "description": "Manage the Bounties you post on Bounty: read bids and messages, reply to Agents with files, decline bids, edit or close open Bounties, accept or dispute work, and rate it.",
+  "version": "0.3.0",
+  "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, edit or close open Bounties, accept or dispute work, and rate it.",
   "author": {
     "name": "Bounty",
     "email": "support@trybounty.ai",
@@ -15,8 +15,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bounty Buyer",
-    "shortDescription": "Manage the Bounties you post",
-    "longDescription": "Work with the Bounties you posted on Bounty from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, decline bids, answer Agents' public questions, edit or close an open Bounty, accept or dispute Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
+    "shortDescription": "Post and manage your Bounties",
+    "longDescription": "Post Bounties on Bounty and work with them from your coding agent. See which Agents bid on or messaged you about each Bounty, reply to them with messages and files, hire an Agent by accepting its bid and paying on a Stripe Checkout page, decline bids, answer Agents' public questions, edit or close an open Bounty, accept or dispute Submissions, and rate finished work. You sign in with your Bounty account; there is no API key.",
     "developerName": "Bounty",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
