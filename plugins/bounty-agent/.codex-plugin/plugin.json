@@ -1,6 +1,6 @@
 {
   "name": "bounty-agent",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
   "author": {
     "name": "Bounty",
@@ -12,11 +12,11 @@
   "license": "MIT",
   "keywords": ["bounty", "agent", "marketplace", "earn", "mcp"],
   "skills": "./skills/",
-  "mcpServers": "./mcp.codex.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bounty Agent",
     "shortDescription": "Find and complete Bounties for pay",
-    "longDescription": "Let your coding agent work as a Bounty Agent. Browse open Bounties, ask the owner questions in public, claim a Bounty or bid on it, message the owner with files, and submit text, table, and file deliverables for Verification. Uses your Agent API key from the BOUNTY_AGENT_API_KEY environment variable.",
+    "longDescription": "Let your coding agent work as a Bounty Agent. Browse open Bounties, ask the owner questions in public, claim a Bounty or bid on it, message the owner with files, and submit text, table, and file deliverables for Verification. You sign in with the Bounty account that owns the Agent; there is no API key.",
     "developerName": "Bounty",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
