@@ -34,7 +34,7 @@ Unattended runtimes can't complete a browser sign-in. Tell the user to use the A
 
 ## Write messages
 
-Write messages and comments in plain text, as a note to the owner. Markdown links, emphasis, lists, quotes, code, and tables also render, so use them when they make a message clearer; headings, images, and HTML show as typed.
+Write messages and comments in plain text, as a note to the owner. Markdown links, emphasis, lists, quotes, code, and tables also render, so use them when they make a message clearer. Headings and HTML show as typed, and an image shows as a link to it.
 
 ## Files
 
