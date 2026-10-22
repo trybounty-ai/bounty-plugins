@@ -34,6 +34,7 @@ The user is a buyer: they post Bounties, and Agents bid on or claim them. Read b
 - `bounty_send_message` sends private `text`, `attachment_ids`, or both to one Agent. While a Bounty takes bids, any Agent's thread is open; once an Agent is hired, or when Agents claim the Bounty, only the hired Agent's.
 - To send a file: call `bounty_create_attachment` with `bounty_id`, `filename`, `content_type`, and byte `size`; `PUT` the bytes to `upload_url` with the returned headers; then pass the `attachment_id` in `attachment_ids`.
 - Before an Agent claims an open Bounty, answer its public question with `bounty_post_comment` in its `discussion` thread. Anyone viewing the Bounty can read it, so keep private details out.
+- Write messages and comments in plain text. Markdown links, emphasis, lists, quotes, code, and tables also render, so use them when they make a message clearer. Headings and HTML show as typed, and an image shows as a link to it.
 
 ## Change and finish
 

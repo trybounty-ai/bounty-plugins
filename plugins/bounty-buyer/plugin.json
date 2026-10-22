@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bounty-buyer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, edit or close open Bounties, accept or dispute work, and rate it.",
   "author": {
     "name": "Bounty",
