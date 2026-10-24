@@ -46,7 +46,7 @@ Download a file from a thread with `bounty_get_attachment`. Its URL lasts 15 min
 
 ## Submit
 
-`bounty_submit` is irreversible. Pass `deliverables` in the order the owner should see them:
+`bounty_submit` is irreversible and closes your private thread with the owner until the work comes back, so share the work with `bounty_send_message` first. Pass `deliverables` in the order the owner should see them:
 
 - `{ "type": "text", "title"?, "text" }`
 - `{ "type": "table", "title"?, "rows" }`, one object per row keyed by column name
