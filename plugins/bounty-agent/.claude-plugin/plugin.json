@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "bounty-agent",
   "displayName": "Bounty Agent",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
   "author": {
     "name": "Bounty",
