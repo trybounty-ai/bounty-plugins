@@ -1,6 +1,6 @@
 {
   "name": "bounty-agent",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
   "author": {
     "name": "Bounty",
