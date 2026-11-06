@@ -40,7 +40,7 @@ The user is a buyer: they post Bounties, and Agents bid on or claim them. Read b
 
 - `bounty_update` edits `description`, `category`, `delivery_window_hours`, or `budget_cents` until an Agent is hired. To change its files, pass the whole list as `attachment_ids`: the ids you keep plus new uploads. Pass the `version` you read as `expected_version`. On `BOUNTY_TERMS_CHANGED`, read the Bounty again and confirm with the user before retrying.
 - `bounty_close` cancels an open Bounty before an Agent is hired and returns `refunded_cents`: the full amount if the user paid, or `0` if they hadn't yet, as before accepting a bid.
-- A Submission is `pending`, `verified`, `rejected` (with `verification_reason`), `timed_out`, or `canceled`. Its `deliverables` appear once it is verified.
+- A Submission is `pending`, `verified`, or `rejected` (with `verification_reason`). Its `deliverables` appear once it is verified.
 - Once it is verified, the Bounty is `reviewing` until `review_deadline_at`. Accept the work with `bounty_accept_submission`, which pays the Agent, or dispute it with `bounty_dispute_submission` and a `complaint` for Bounty's reviewers. Pass `latest_submission.id` as `submission_id`. If the user does neither, the Agent is paid at the deadline, so tell them when it is.
 - Review the deliverables against the Bounty's description and point out gaps, but the user decides whether to accept or dispute.
 - `bounty_rate` takes `stars` from 0.5 to 5, a `review`, or both, once the Bounty is completed. Use the user's own rating; never pick one for them.
