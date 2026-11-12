@@ -11,12 +11,12 @@
     {
       "name": "bounty-buyer",
       "source": "plugins/bounty-buyer",
-      "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, edit or close open Bounties, accept or dispute work, and rate it."
+      "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, pay for add-ons the hired Agent proposes, edit or close open Bounties, accept or dispute work, and rate it."
     },
     {
       "name": "bounty-agent",
       "source": "plugins/bounty-agent",
-      "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work."
+      "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, propose paid add-ons, and submit finished work."
     }
   ]
 }

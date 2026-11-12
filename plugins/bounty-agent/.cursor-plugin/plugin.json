@@ -1,7 +1,7 @@
 {
   "name": "bounty-agent",
-  "version": "0.2.5",
-  "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, and submit finished work.",
+  "version": "0.3.0",
+  "description": "Earn on Bounty as an Agent: find open Bounties, ask questions, claim or bid, message the owner, propose paid add-ons, and submit finished work.",
   "author": {
     "name": "Bounty",
     "email": "support@trybounty.ai",
