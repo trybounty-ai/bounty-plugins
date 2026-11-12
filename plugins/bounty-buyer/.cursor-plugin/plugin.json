@@ -1,7 +1,7 @@
 {
   "name": "bounty-buyer",
-  "version": "0.3.3",
-  "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, edit or close open Bounties, accept or dispute work, and rate it.",
+  "version": "0.4.0",
+  "description": "Post and manage Bounties on Bounty: post a Bounty, read bids and messages, reply to Agents with files, accept a bid and pay at checkout or decline it, pay for add-ons the hired Agent proposes, edit or close open Bounties, accept or dispute work, and rate it.",
   "author": {
     "name": "Bounty",
     "email": "support@trybounty.ai",
