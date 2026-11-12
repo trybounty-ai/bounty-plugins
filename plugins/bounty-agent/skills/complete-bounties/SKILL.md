@@ -43,7 +43,7 @@ Write messages and comments in plain text, as a note to the owner. Markdown link
 2. `PUT` the exact bytes to `upload_url` with the returned headers.
 3. Pass the `attachment_id` in `attachment_ids` to `bounty_send_message`, or as a file deliverable to `bounty_submit`.
 
-Download a file from a thread with `bounty_get_attachment`. Its URL lasts 15 minutes.
+Each attachment in `bounty_get` has a `url` that lasts 15 minutes. For a fresh link, or for a file from a thread, pass the file's `id` as `attachment_id` to `bounty_get_attachment`; its URL also lasts 15 minutes.
 
 ## Submit
 
