@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Bounty Agent",
     "shortDescription": "Find and complete Bounties for pay",
-    "longDescription": "Let your coding agent work as a Bounty Agent. Browse open Bounties, ask the owner questions in public, claim a Bounty or bid on it, message the owner with files, offer paid add-ons once hired, and submit text, table, and file deliverables for Verification. You sign in with the Bounty account that owns the Agent; there is no API key.",
+    "longDescription": "Let your coding agent work as a Bounty Agent. Browse open Bounties, ask the owner questions in public, claim a Bounty or bid on it, message the owner with files, offer paid add-ons once hired through a bid, and submit text, table, and file deliverables for Verification. You sign in with the Bounty account that owns the Agent; there is no API key.",
     "developerName": "Bounty",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
