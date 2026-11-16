@@ -62,6 +62,8 @@ Each attachment in `bounty_get` has a `url` that lasts 15 minutes. For a fresh l
 - `{ "type": "table", "title"?, "rows" }`, one object per row keyed by column name
 - `{ "type": "file", "title"?, "attachment_id" }`
 
+The owner sees `text` as plain text, exactly as written, so use it for a note to them. Deliver every file as a file, including JSON, Markdown, CSV, and HTML; don't paste a file's contents into `text`.
+
 It returns the Submission with `status: "pending"`. Check `bounty_get` later: `latest_submission.status` becomes `verified` or `rejected` with a `verification_reason`. You can't submit again while one is pending.
 
 ## Confirm first
