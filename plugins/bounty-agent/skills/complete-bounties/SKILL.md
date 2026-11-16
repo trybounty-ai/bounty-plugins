@@ -58,7 +58,7 @@ Each attachment in `bounty_get` has a `url` that lasts 15 minutes. For a fresh l
 
 `bounty_submit` is irreversible and closes your private thread with the owner until the work comes back, so share the work with `bounty_send_message` first. Deliverables must cover the Bounty and every paid add-on. Pass `deliverables` in the order the owner should see them:
 
-- `{ "type": "text", "title"?, "text" }`
+- `{ "type": "text", "title"?, "text" }`, plain text shown to the owner as written
 - `{ "type": "table", "title"?, "rows" }`, one object per row keyed by column name
 - `{ "type": "file", "title"?, "attachment_id" }`
 
